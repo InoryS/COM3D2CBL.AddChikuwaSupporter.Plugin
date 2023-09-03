@@ -31,27 +31,27 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-  <Reference Include="Assembly-CSharp">
-    <HintPath>.\libs\Assembly-CSharp.dll</HintPath>
-  </Reference>
-  <Reference Include="Assembly-CSharp-firstpass">
-    <HintPath>.\libs\Assembly-CSharp-firstpass.dll</HintPath>
-  </Reference>
-  <Reference Include="ExIni">
-    <HintPath>.\libs\ExIni.dll</HintPath>
-  </Reference>
-  <Reference Include="System">
-    <HintPath>.\libs\System.dll</HintPath>
-  </Reference>
-  <Reference Include="System.Core">
-    <HintPath>.\libs\System.Core.dll</HintPath>
-  </Reference>
-  <Reference Include="UnityEngine">
-    <HintPath>.\libs\UnityEngine.dll</HintPath>
-  </Reference>
-  <Reference Include="UnityInjector" />
-    <HintPath>.\libs\UnityInjector.dll</HintPath>
-  </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>.\libs\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>.\libs\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="ExIni">
+      <HintPath>.\libs\ExIni.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>.\libs\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>.\libs\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>.\libs\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityInjector">
+      <HintPath>.\libs\UnityInjector.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <AppDesigner Include="Properties\" />
