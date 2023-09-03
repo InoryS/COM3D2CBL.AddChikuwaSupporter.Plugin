@@ -12,14 +12,14 @@ using UnityInjector;
 using UnityInjector.Attributes;
 using UnityObsoleteGui;
 
-namespace CM3D2CBL.AddChikuwaSupporter.Plugin
+namespace COM3D2CBL.AddChikuwaSupporter.Plugin
 {
 	// Token: 0x02000002 RID: 2
-	[PluginFilter("CM3D2OHVRx64")]
-	[PluginFilter("CM3D2OHx86")]
+	[PluginFilter("COM3D2OHVRx64")]
+	[PluginFilter("COM3D2OHx86")]
 	[PluginName(" AddChikuwaSupporter_feat_YotogiSlider")]
-	[PluginVersion("0.1.0.15")]
-	[PluginFilter("CM3D2OHx64")]
+	[PluginVersion("0.2.0.15")]
+	[PluginFilter("COM3D2OHx64")]
 	public class AddChikuwaSupporter : PluginBase
 	{
 		// Token: 0x17000001 RID: 1
