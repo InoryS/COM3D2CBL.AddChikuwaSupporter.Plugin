@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{668E9D58-9FFB-456C-826A-77108F4922EC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>COM3D2CBL.AddChikuwaSupporter.Plugin</RootNamespace>
+    <AssemblyName>COM3D2CBL.AddChikuwaSupporter.Plugin</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp" />
+      <HintPath>.\libs\Assembly-CSharp.dll</HintPath>
+    <Reference Include="Assembly-CSharp-firstpass" />
+      <HintPath>.\libs\Assembly-CSharp-firstpass.dll</HintPath>
+    <Reference Include="ExIni" />
+      <HintPath>.\libs\ExIni.dll</HintPath>
+    <Reference Include="System" />
+        <HintPath>.\libs\System.dll</HintPath>
+    <Reference Include="System.Core" />
+      <HintPath>.\libs\System.Core.dll</HintPath>
+    <Reference Include="UnityEngine" />
+      <HintPath>.\libs\UnityEngine.dll</HintPath>
+    <Reference Include="UnityInjector" />
+      <HintPath>.\libs\UnityInjector.dll</HintPath>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddChikuwaSupporter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnityObsoleteGui\ButtonEventArgs.cs" />
+    <Compile Include="UnityObsoleteGui\Container.cs" />
+    <Compile Include="UnityObsoleteGui\Element.cs" />
+    <Compile Include="UnityObsoleteGui\ElementEventArgs.cs" />
+    <Compile Include="UnityObsoleteGui\HSlider.cs" />
+    <Compile Include="UnityObsoleteGui\PixelValuesCM3D2.cs" />
+    <Compile Include="UnityObsoleteGui\SelectButton.cs" />
+    <Compile Include="UnityObsoleteGui\SelectEventArgs.cs" />
+    <Compile Include="UnityObsoleteGui\SliderEventArgs.cs" />
+    <Compile Include="UnityObsoleteGui\Toggle.cs" />
+    <Compile Include="UnityObsoleteGui\ToggleEventArgs.cs" />
+    <Compile Include="UnityObsoleteGui\Window.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
